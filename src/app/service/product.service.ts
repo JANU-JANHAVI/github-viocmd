@@ -2,8 +2,7 @@ import { Injectable } from '@angular/core';
 import { appConstant } from '../app.constant';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-import { Product } from '../product/product';
+import { Product } from '../module/product';
 import { environment } from '../environments/environment';
 @Injectable({
   providedIn: 'root',
