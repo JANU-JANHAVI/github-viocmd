@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { appConstant } from '../app.constant';
 import { environment } from '../environments/environment';
-import { Product } from '../product/product';
+import { Product } from '../module/product';
 import { FormBuilder, Validators } from '@angular/forms';
 import { FormControl, FormGroup, FormControlName } from '@angular/forms';
 
